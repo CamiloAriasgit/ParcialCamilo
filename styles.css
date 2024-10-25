@@ -1,61 +1,61 @@
-/* Agrega un comentario aquí para explicar la función del selector body */
+/* El body es literalmente, todo el cuerpo de la pagina, ahi es donde esta nuestra estructura html*/
 body {
-    /* Agrega un comentario aquí para explicar el atributo font-family */
+    /* font-family nos sirve para elegir el tipo de letra que tendrá nuestra pagina*/
     font-family: sans-serif;
-    /* Agrega un comentario aquí para explicar el atributo margin */
+    /* Este margin nos sirve para definir el espacio fuera del borde de un elemento, creando separación entre este y otros elementos */
     margin: 0;
 }
 
-/* Agrega un comentario aquí para explicar la función del selector .contenedor */
+/* El selector .contenedor nos ayuda a ponerle estilo de manera externa (osea, en un archivo css aparte) como queramos al contenedor que tenemos en el html */
 .contenedor {
-    /* Agrega un comentario aquí para explicar el atributo display */
+    /* el atributo display, nos ayuda a deinir la manera en que queramos que se comporte el contenedor y los elementos que contiene*/
     display: flex; 
-    /* Agrega un comentario aquí para explicar el atributo flex-wrap */
+    /*el wrap nos ayuda a cuadrar elementos de manera que, si la inetrfaz se encoje, los elementos se dividen en las filas que sean necesarias para no perder sus propiedades de tamaño */
     flex-wrap: wrap; 
-    /* Agrega un comentario aquí para explicar el atributo justify-content */
+    /* Justify-content este, como su nombre lo indica, nos ayuda a justificar el contenido dentro de un contenedor o caja  */
     justify-content: space-around; 
-    /* Agrega un comentario aquí para explicar el atributo padding */
+    /* este padding, define el espacio dentro del borde de un elemento, entre el contenido y el borde*/
     padding: 20px;
 }
 
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta */
+/* El selector .tarjeta nos ayuda a ponerle estilo de manera externa (osea, en un archivo css aparte) como queramos a ese div que tenemos en el html */
 .tarjeta {
-    /* Agrega un comentario aquí para explicar el atributo width */
+    /* Este width nos ayuda a definir el anchor */
     width: 300px; 
-    /* Agrega un comentario aquí para explicar el atributo margin */
+    /* Este margin nos sirve para definir el espacio fuera del borde de un elemento, creando separación entre este y otros elementos */
     margin: 10px; 
-    /* Agrega un comentario aquí para explicar el atributo border */
+    /* este border nos sirve para definir el borde de este elemento */
     border: 1px solid #ccc; 
-    /* Agrega un comentario aquí para explicar el atributo padding */
+    /*este padding, define el espacio dentro del borde de un elemento, entre el contenido y el borde*/
     padding: 20px; 
-    /* Agrega un comentario aquí para explicar el atributo border-radius */
+    /* border-radius ya es otra cosa diferente al border, este es mas bien por si queremos redondear las esquinas del div, o si quremos un elemento totalmente circular */
     border-radius: 5px; 
-    /* Agrega un comentario aquí para explicar el atributo box-shadow */
+    /*box-shadow funciona para ponerle sombra al elemento, el nivel de sombra y su color */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta img */
+/* El selector .tarjeta img nos ayuda a ponerle estilo de manera externa a la imagen que tenemos en "tarjeta", ya que hay un espacio entre .tarjeta e img */
 .tarjeta img {
-    /* Agrega un comentario aquí para explicar el atributo width */
+    /* Este width nos ayuda a definir el anchor */
     width: 100%; 
-    /* Agrega un comentario aquí para explicar el atributo height */
+    /*este señor height, a diferencia del width, es para definir la altura de un elemnto, NO el anchor */
     height: auto; 
-    /* Agrega un comentario aquí para explicar el atributo display */
+    /* el atributo display, nos ayuda a deinir la manera en que queramos que se comporte el contenedor y los elementos que contiene, en este caso es "block" */
     display: block; 
-    /* Agrega un comentario aquí para explicar el atributo border-radius */
+    /* border-radius ya es otra cosa diferente al border, este es mas bien por si queremos redondear las esquinas del div, o si quremos un elemento totalmente circular*/
     border-radius: 5px 5px 0 0; 
 }
 
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta h3 */
+/* El selector .tarjeta h3 nos ayuda a ponerle estilo de manera externa al texto que tenemos en "tarjeta", ya que hay un espacio entre .tarjeta y h3 */
 .tarjeta h3 {
-    /* Agrega un comentario aquí para explicar el atributo margin-top */
+    /* La propiedad margin establece el margen para los cuatro lados de los elementos */
     margin-top: 10px; 
 }
 
-/* Agrega un comentario aquí para explicar la función del selector .tarjeta p */
+/* El selector .tarjeta p nos ayuda a ponerle estilo de manera externa al parrafo que tenemos en "tarjeta", ya que hay un espacio entre .tarjeta y p  */
 .tarjeta p {
-    /* Agrega un comentario aquí para explicar el atributo font-size */
+    /* este fond-size nos ayuda a definir el tamaño de la letra que estamos usando aca */
     font-size: 0.9em; 
-    /* Agrega un comentario aquí para explicar el atributo line-height */
+    /*el atributo line-height nos ayuda a controlar la distancia verticalente entre los renglones de un parrafo */
     line-height: 1.5; 
 }
